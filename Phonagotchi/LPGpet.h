@@ -9,8 +9,8 @@
 #import <Foundation/Foundation.h>
 
 @interface LPGpet : NSObject
-@property (nonatomic, assign) BOOL isGrumpy;
 
+@property (nonatomic, assign) BOOL isGrumpy;
 - (void)becomesGrumpy;
 
 @end
